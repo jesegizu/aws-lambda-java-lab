@@ -41,7 +41,7 @@ public class StateIMCTest {
         StateFactory stateFactory = new StateFactory();
         State stateIMC = stateFactory.getState(28.5);
         String state = stateIMC.get();
-        assertEquals("Sobrepeso",state);
+        assertEquals("Bendiiiiito",state);
     }
 
     @org.junit.Test
